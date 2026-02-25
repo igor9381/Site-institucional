@@ -1,2 +1,64 @@
 # Site insticucional
 Projeto de página institucional em HTML
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <title>TecIgor</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<header>
+    <div class="container">
+        <h1>TecIgor Soluções Digitais</h1>
+        <p>Inovação e tecnologia para o seu negócio</p>
+    </div>
+</header>
+
+<section class="sobre">
+    <div class="container">
+        <h2>Sobre Nós</h2>
+        <p>
+            Somos uma empresa focada no desenvolvimento de soluções digitais,
+            ajudando negócios a crescer através da tecnologia e automação.
+        </p>
+    </div>
+</section>
+
+<section class="servicos">
+    <div class="container">
+        <h2>Serviços</h2>
+
+        <div class="cards">
+            <div class="card">
+                <h3>Desenvolvimento Web</h3>
+                <p>Criação de sites modernos e responsivos.</p>
+            </div>
+
+            <div class="card">
+                <h3>Integração de Sistemas</h3>
+                <p>Automatização e integração de plataformas.</p>
+            </div>
+
+            <div class="card">
+                <h3>Consultoria em TI</h3>
+                <p>Planejamento estratégico para evolução tecnológica.</p>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section class="contato">
+    <div class="container">
+        <h2>Contato</h2>
+        <p>Email: igor.gp023@gmail.com</p>
+        <p>Telefone: (32) 98510-4300</p>
+    </div>
+</section>
+
+
+
+</body>
+</html>
